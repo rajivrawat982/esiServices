@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 export class Gallery extends Component {
   render() {
@@ -17,6 +18,7 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
+                    <Link to={`/jswSteel`}>
                     <a
                       href="img/portfolio/01-jswSteel.jpg"
                       title="Project Title"
@@ -31,7 +33,7 @@ export class Gallery extends Component {
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+                    </a></Link>{" "}
                   </div>
                 </div>
               </div>

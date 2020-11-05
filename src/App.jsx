@@ -12,6 +12,9 @@ import Policies from './components/policies';
 import WorkAspects from './components/workAspects';
 import JsonData from './data/data.json';
 
+import { BrowserRouter as Router, Switch , Route} from 'react-router-dom';
+import Jswsteel from './workingsites/jswsteel';
+
 export class App extends Component {
   state = {
     landingPageData: {},
@@ -26,7 +29,9 @@ export class App extends Component {
 
   render() {
     return (
+      <Router>
       <div>
+        
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Features data={this.state.landingPageData.Features} />
@@ -38,9 +43,14 @@ export class App extends Component {
         <Team data={this.state.landingPageData.Team} />
         <WorkAspects data={this.state.landingPageData.Workaspects}/>
         <Contact data={this.state.landingPageData.Contact} />
+        <Switch>
+        <Route path="/jswsteel" exact component={Jswsteel}/>
+        </Switch>
       </div>
+      </Router>
     )
   }
 }
 
 export default App;
+
