@@ -76,7 +76,7 @@ hr {
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
@@ -331,7 +331,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -413,9 +413,20 @@ header .intro-text {
 	font-weight: 600;
 	color: #666;
 }
+
+/*Policies Section*/
+#policies {
+	padding: 50px 0;
+}
+
+#policies .policy>p {
+	text-align: left;
+}
+
 /* Team Section */
 #team {
 	padding: 100px 0;
+	background: #f6f6f6;
 }
 #team h4 {
 	margin: 5px 0;
@@ -431,6 +442,35 @@ header .intro-text {
 	padding: 10px 0 0 0;
 	color: #888;
 }
+
+/* Work aspects*/
+#workaspects {
+	padding: 50px;
+}
+
+#workaspects .work-list li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+	text-align: left;
+}
+
+#workaspects .work-list li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
+#workaspects .work-list h2 {
+	text-transform: none !important;
+	font-weight: 400;
+	font-size: 25px;
+}
+
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;

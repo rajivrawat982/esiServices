@@ -40,6 +40,48 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
+                      href="img/portfolio/05-large.jpg"
+                      title="Project Title"
+                      data-lightbox-gallery="gallery1"
+                    >
+                      <div className="hover-text">
+                        <h4>Jsw cement</h4>
+                      </div>
+                      <img
+                        src="img/portfolio/05-jsw-cement.jpg"
+                        className="img-responsive"
+                        alt="Project Title"
+                      />{" "}
+                    </a>{" "}
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg">
+                    {" "}
+                    <a
+                      href="img/portfolio/03-Bhushan-Steel.jpg"
+                      title="Project Title"
+                      data-lightbox-gallery="gallery1"
+                    >
+                      <div className="hover-text">
+                        <h4>Bhushan Steel Ltd</h4>
+                      </div>
+                      <img
+                        src="img/portfolio/06-jsw-severfield.jpg"
+                        className="img-responsive"
+                        alt="Project Title"
+                      />{" "}
+                    </a>{" "}
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg">
+                    {" "}
+                    <a
                       href="img/portfolio/04-jindal.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
@@ -56,6 +98,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
+              
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
                   <div className="hover-bg">
@@ -87,7 +130,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Tata Steel</h4>
                       </div>
                       <img
                         src="img/portfolio/02-tata.jpg"
@@ -98,48 +141,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/05-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/05-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/06-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/06-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

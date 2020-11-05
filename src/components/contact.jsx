@@ -9,55 +9,22 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
-                  <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
-                  </p>
+                  <h2>Persons to be Contacted</h2>
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          id="name"
-                          className="form-control"
-                          placeholder="Name"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          id="email"
-                          className="form-control"
-                          placeholder="Email"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      id="message"
-                      className="form-control"
-                      rows="4"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                    <p className="help-block text-danger"></p>
-                  </div>
-                  <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
-                  </button>
-                </form>
+                <div className="contact-person">
+                  {this.props.data ? 
+                    this.props.data.persons.map((person, i) => (
+                      <div key={`${i}`}>
+                        <h5>{person.name}</h5>
+                        <h6>({person.designation})</h6>
+                    <p>phone: <strong>{person.phone}</strong><br/>
+                        email: <strong>{person.email}</strong>
+                    </p>
+                    <br/>
+                      </div> 
+                    ))
+                  :"loading"}
+                </div>
               </div>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
@@ -67,7 +34,7 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-map-marker"></i> Address
                   </span>
-                  {this.props.data ? this.props.data.address : "loading"}
+                  <strong>{this.props.data ? this.props.data.address : "loading"}</strong>
                 </p>
               </div>
               <div className="contact-item">
@@ -75,7 +42,7 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-phone"></i> Phone
                   </span>{" "}
-                  {this.props.data ? this.props.data.phone : "loading"}
+                  <strong>{this.props.data ? this.props.data.phone : "loading"}</strong>
                 </p>
               </div>
               <div className="contact-item">
@@ -83,7 +50,7 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-envelope-o"></i> Email
                   </span>{" "}
-                  {this.props.data ? this.props.data.email : "loading"}
+                  <strong>{this.props.data ? this.props.data.email : "loading"}</strong>
                 </p>
               </div>
             </div>
@@ -130,3 +97,47 @@ export class Contact extends Component {
 }
 
 export default Contact;
+
+// <form name="sentMessage" id="contactForm" noValidate>
+//                 <div className="row">
+//                   <div className="col-md-6">
+//                     <div className="form-group">
+//                       <input
+//                         type="text"
+//                         id="name"
+//                         className="form-control"
+//                         placeholder="Name"
+//                         required="required"
+//                       />
+//                       <p className="help-block text-danger"></p>
+//                     </div>
+//                   </div>
+//                   <div className="col-md-6">
+//                     <div className="form-group">
+//                       <input
+//                         type="email"
+//                         id="email"
+//                         className="form-control"
+//                         placeholder="Email"
+//                         required="required"
+//                       />
+//                       <p className="help-block text-danger"></p>
+//                     </div>
+//                   </div>
+//                 </div>
+//                 <div className="form-group">
+//                   <textarea
+//                     name="message"
+//                     id="message"
+//                     className="form-control"
+//                     rows="4"
+//                     placeholder="Message"
+//                     required
+//                   ></textarea>
+//                   <p className="help-block text-danger"></p>
+//                 </div>
+//                 <div id="success"></div>
+//                 <button type="submit" className="btn btn-custom btn-lg">
+//                   Send Message
+//                 </button>
+//               </form>

@@ -105,12 +105,33 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
+        "address": "Regd: Office: 69, 1st. Floor, DD Milestone, Kadavanthra Jn, Kadavanthra P. O. Cochin-682 020 INDIA",
+        "phone": "(Off) +091 0484 – 220 6326, 220 6327 ® 091 0484 – 229 5636",
+        "website": "www.esiservices.com",
         "email": "info@company.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "youtube.com",
+        "persons": [
+            {
+            "name": "MR. BABY MATHEW",
+            "designation": "DIRECTOR-EXECUTIVE",
+            "phone": "091-9495637980",
+            "email": "mathew@esiservices.com , esi.babymathew@gmail.com"
+            },
+            {
+                "name": "MR. BOB PAUL APPAKEN",
+                "designation": "DIRECTOR",
+                "phone": "091-9495933939",
+                "email": "bob@esiservices.com , appackan@gmail.com"
+            },
+            {
+                "name": "MR. A P PAULOSE (PAUL)",
+                "designation": "MD",
+                "phone": "091-9446441717, 091-9449980717",
+                "email": "paul@esiservices.com , appackan@yahoo.com"
+            }
+        ]
     },
     "Features": [
         {
@@ -128,5 +149,42 @@
             "title": "TECHNOLOGY AND CONSULTING",
             "text": "Delivering professional training in maintenance and industrial engineering."
         }
-    ]
+    ],
+    "Policies": [{
+        "title": "Environment Policy",
+        "paragraph": "A sound mind exists in a sound body” that is how the proverb goes. Accordingly, health is an important aspect in human life, and therefore it is important for us to see that all our employees maintain good health so that they can perform their normal duties efficiently and effectively, and make his earnings to support his family, and lead a comfortable life. Cleanliness and hygiene play vital role in maintaining normal health of human race, or otherwise it will invite deceases causing damages to health. Good housekeeping within the Plant is very significant and therefore, we educate our employees to maintain good housekeeping in their respective work areas, as they may be doing in their own homes; in order to provide a healthy working- environment. Controlling/ minimizing air and sound pollution at the work place is equally important to maintain good and healthy environment, everyone should understand and pay attention not to make the atmosphere polluted, and therefore smoking at the work place is prohibited. All our employees are informed at the time of their induction about the importance of maintaining healthy environment in their place of work. Our Area Supervisors are instructed to ensure that the employees in their respective areas understand the concept fully well, and maintain their work areas neat and tidy after completing a given task/ at the end of their duty hours on regular basis.",
+        "author": "A P Paulose",
+        "designation": "Managing Director"
+        },
+        {
+         "title": "Drugs and Alcohol Policy",
+         "paragraph": "We Engineering Services International are committed to maintain a safe and healthy working culture among our Employees in all our Work sites. For maintaining the above, we understand it is important to ensure that none of our employee comes to work consuming intoxicated Drugs/Alcoholic Drinks, nor they consume any of such intoxicating substances while at work. If anyone works in the Plant after consuming intoxicating substances he may not have his normal balance of mind and it might end up with untoward incidents like quarrels, infighting or even accidents affecting him and also other innocent fellow worker. We have included this policy in our induction programme, and all our employees are informed regarding the same at the time of their recruitment procedures. Our Area Supervisors are asked to keep a vigil on the employees to ensure that they strictly adhere to our policy and abstain from using Drugs or any other alcoholic substances during duty hours. Our policy is to ensure 100% effectiveness of its purpose; and therefore we will closely monitor and initiate strict disciplinary action against any defaulters as indicated in our Employee Induction Programme.",
+         "author": "A P Paulose",
+        "designation": "Managing Director"   
+        }
+    ],
+    "Workaspects": {
+        "accommodation": [
+            "Senior executives",
+            "Executives",
+            "Managers",
+            "Engineers",
+            "Supervisors",
+            "Family accommodation for Sr. Technicians",
+            "Bachelor accommodation for Technicians",
+            "Provision for canteen facility"
+        ],
+        "office": [
+            "Furnished Office space at work site with Telephone, Internet, and computers",
+            "Workshop space at work site with crane, Hoist and Gibb cranes",
+            "Store for storage facility",
+            "Shift office for shift management"
+        ],
+        "feesAndBilling": [
+            "Mobilization fees of 25% will be applied one time for the monthly running bill.",
+            "10% flexibility should be available to meet the emergency conditions on a monthly bill.",
+            "The services taxes and WCT will be extra, wherever applicable.",
+            "The payment should be released within two weeks on submission of bills."
+        ]
+    }
 }
