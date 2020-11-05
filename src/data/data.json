@@ -1,12 +1,12 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Delivering safe and efficient Steel Plants",
+        "paragraph": "Engineering Services International is an engineering firm established in 1999 and has since grown to where we are today. ESI reached Rs. 550 million in turnover in the last year."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Mr. A P Paulose, the Managing Director of ESI, is an engineer by profession. He started his career in early 1966 with Rourkela Steel plant and continued till 1977. From 1977 he worked with the first integrated steel company in the Middle East, Qatar Steel Company (QASCO) in the state of Qatar until 1992. In 1992, he joined Katayama Chemicals, Inc., a Japanese water treatment company as their General Manager for Middle East operations and continued till 2000. Having worked for a period of 34 years in steel and its associated auxiliary industries, he still maintains a hands-on approach in the operations of the company and strives to stay up to date on new and emerging technologies in the steel making industry.",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -112,25 +112,21 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
+    "Features": [
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "OPERATION AND MAINTENANCE",
+            "text": "Driving organizational excellence with cross-functional expertise."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "FABRICATION AND ERECTION",
+            "text": "Offering an incomparable service of Fabrication & Erection"
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "TECHNOLOGY AND CONSULTING",
+            "text": "Delivering professional training in maintenance and industrial engineering."
         }
     ]
 }
