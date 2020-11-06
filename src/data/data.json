@@ -1,58 +1,172 @@
 {
     "Header": {
 
-        "title": "Delivering safe and efficient Steel Plants",
-        "paragraph": "Engineering Services International is an engineering firm established in 1999 and has since grown to where we are today. ESI reached Rs. 550 million in turnover in the last year."
+        "title": "Tailored Services To Deliver Safety Through The Entire Life Cycle Of Steel/Power Plants.",
+        "paragraph": "An ISO accredited company, ESI was registered as an Engineering firm in 1999. In the last 2 decades, it has reached a turnover of 550 million.",
+        "paragraph2": "ESI aims to deliver tailored services for absolute steel plant management, from planning, designing to operating and maintenance. Having established a positive reputation in the 20 years of successful association with M/S JSW Steel Ltd, Bellary, India, ESI intently diversified to Aluminium & Concrete Technology & Services, catering to every aspect of their life cycle and more recently into Robotics and Factory Automation meeting high quality standards with integrated project delivery.",
+        "paragraph3": "ESI steadily expanded its business value by entering into major contracts with several marquee infrastructure firms such as Tata Steel Ltd.- Kalinganagar, Tata Steel-Jamshedpur, JSW Severfield Structures Ltd.-Bellary, Jindal Aluminium Ltd- Bangalore, JSW Cement Ltd-Bellary, Andrtiz Pvt. Ltd & Tata Bhushan Steel, Angul.",
+        "paragraph4": "Maintaining safety in every process while driving organisational excellence with cross functional expertise, ESI offers a wide range of services to create efficient work processes and operations. Along with all this, ESI also delivers professional training in maintenance and industrial engineering while continuously researching and remaining updated with upcoming technology to thrive on relevance."
 
     },
     "About": {
-        "paragraph": "Mr. A P Paulose, the Managing Director of ESI, is an engineer by profession. He started his career in early 1966 with Rourkela Steel plant and continued till 1977. From 1977 he worked with the first integrated steel company in the Middle East, Qatar Steel Company (QASCO) in the state of Qatar until 1992. In 1992, he joined Katayama Chemicals, Inc., a Japanese water treatment company as their General Manager for Middle East operations and continued till 2000. Having worked for a period of 34 years in steel and its associated auxiliary industries, he still maintains a hands-on approach in the operations of the company and strives to stay up to date on new and emerging technologies in the steel making industry.",
+        "paragraph": "Mr. Paul Apackken, (Paulose) has an extensive experience of 34 years in steel and its associated auxiliary industries, and he maintains a hands-on approach in the operations of the company and strives to stay up to date on new and emerging technologies in the steel making industry.",
+        "paragraph1": "The managing director of ESI, Mr. Paul Apackken is an engineer by profession and started his practice in 1966 with Rourkela Steel Plant. From there on, he worked with the first integrated steel company in Middle East, Qatar Steel Company (QASCO) and went on to Katayama Chemicals, Inc., a Japanese water treatment company as their General Manager for Middle East operations.",
+        "paragraph2": "He established Engineering Services International in 1999, and started working with M/S JSW Steel Ltd, Bellary, India. Engineering Services International is spread progressively across several marquee infrastructure firms such as Tata Steel Ltd.- Kalinganagar, Tata Steel -Jamshedpur, JSW Severfield Structures Ltd.-Bellary, Jindal Aluminium Ltd- Bangalore, JSW Cement Ltd-Bellary, Andrtiz Pvt. Ltd & Tata Bhushan Steel, Angul and many more, while the largest portion of its business remains with JSW Steel, where manpower contracted by ESI is almost 1100, deployed in 20 departments",
+        "paragraph3": "His wife & son share his vision and joined hands in the business and are playing key roles in maintaining the ethics of excellence and success of the firm.",
+        "paragraph4": "Mrs. Mercy Paulose, the Managing Partner, oversees the Accounts and Finance department of the organization. Mr. Bob Paul Appaken/, the third partner is an Engineer specializing in Electronics and Instrumentation. He oversees the Operations and Business development in his position as Director.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Mr. Paul Apackken (Paulose)",
+            "Mr. Bob P. Appakken",
+            "Mr. Baby Mathew",
+            "Mr.B.Sathyamurthy",
+            "Mr. Peter Thampi"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Mr. V.Eapen",
+            "Mr. Shiva Balakrishnan",
+            "Mr. Uttam C.Dass",
+            "Mr. Gopalakrishnan",
+            "Mr. Padamashekar"
+        ],
+        "coreteam": [{
+                "name": "Mr. Paul Apackken (Paulose)",
+                "info": "Engineering Services International is the brainchild of Mr. Paul Apackken. He began his career in 1970 with Rourkela Steel Plant and was then appointed by Qatar Steel Plant after a successful tenure in his first job. He was sent to Japan for technical training for 3 months. Consequently, with his robust technical knowledge and expertise in Steel Plants for 34 years, Mr. Paul Apackken decided to conceive Engineering Services International. Starting with the supply of Technically skilled manpower in Coke oven & corex, ESI diversified into servicing and catering to many other departments at JSW Steel plant. With sheer passion and dedication, Mr. Paul Apakken realised his vision to be part of the Industrial growth in India and Internationally."                
+            }, 
+            {
+                "name": "MR. BOB P. APPAKEN",
+                "info": "Mr.Bob.P.Appackan started his carreer with Tata consultancy services, Coimbatore. He went onto study Masters in Engineering at Melbourne, Australia. With the experience and knowledge, he then joined as one of the Directors of ESI. He brings with him the advantage of a valuable network which compliments ESI’s growth. He recently enabled ESI to be awarded a prestigious project; setting up of a Robotic museum in the Science city of Ahmadabad, under State Govt of Gujarat. Its a consortium contract between Engineering Services International and Cube constructions where in, the technical installations and maintenance will be done by Engineering Services International and civil construction will be undertaken by Cube constructions. Mr. Bob is currently positioned in Ahmedabad, overlooking the project."
+            },
+            {
+                "name": "MR. BABY MATHEW",
+                "info": "Mr. Baby Mathew began his engineering journey with a Post-Graduate in Mechanical Engineering from IIT. For an extravagant 34 years, he has served in various Steel Industries in the fields of Reverse Engineering ,Re-Engineering& Modifications, Maintenance Services, Project Engineering. During gaining expertise through experience he also went through with a 4 months Design Training in Czechoslovakia on Rolling Mills. He joined ESI in the year 2017 as Director -operations, and is positioned at ESI’s work site at Tata Steel Ltd, Jajpur, Odisha. He is an expert in Reverse Engineering Technique, now widely followed in Major Steel Plants in India."
+            },
+            {
+                "name": "Mr. Sathyamurthy",
+                "info": "Mr. B. Sathyamurthy is a Mechanical Engineer with versatile experience in various Steel Industries within India and abroad. He has over 30 years of experience in the Steel Industries. He has worked in Projects, Production and also Maintenance. He is a veteran and expert in Steel Making, Continues Casting, Pellet Plant, Blast Furnace and Complete maintenance. He was VP of JSW Steel Works and then Joined Mittal Group at Ukraine as Project Manger and has been with E.S.I. since 2016 as Technical Director and is responsible for Technical issues of all sites and also responsible for exploring new business opportunities."
+            },
+            {
+                "name": "Mr. Peter Thampi",
+                "info": "Mr. Peter Thampi is a Mechanical Engineer with 13 years worth experience in Steel Industry within India and 17 years experience with Saudi Iron & Steel , Saudi Arabia. Additionally has 10 years of experience in Engineering Industry in Bahrain. He joined E.S.I.in the year 2010 as D.G.M, and soon was promoted as General Manager (operations), and responsible for overall performance evaluation of all sites."
+            },
+            {
+                "name": "Mr. Varghese Eapen",
+                "info": "Mr. Varghese Eapen is a Mechanical Engineer in Metalurgy, and has served in Tata Steel for over 28 years, and with Bhushan Steel thereafter for 5 years as Sr. D.G.M. He joined E.S.I. In the year 2016 in the capacity of General Manager. He is responsible for ESI worksites at Tata Steel Jamshedpur as well as Tata Steel, Jajpur. He is solely responsible for their total safety management and implementation of safety practices along with day to day operations at our worksites within Tata Steel Ltd, Jamshedpur and Jajpur."
+            },
+            {
+                "name": "Mr. Siva Balakrishnan",
+                "info": "Mr. Siva Balakrishnan is a Commercial Graduate with experience in the Cement Industry, along with 20 years worth experience in Erection and commissioning field in Cement Industries. While he has extraordinary administrative skills, he has also developed his skills in maintenance and repairing of equipment. He joined E.S.I.in the year 2013, and he was our site in charge at Bhushan Steel for 3 years, and presently he is taking care of the administrative as well as maintenance activities of Tata Steel, Kalinga Nagar (Jajpur)."
+            },
+            {
+                "name": "Mr. Uttam Charan Das",
+                "info": "Mr. Uttam Charan Das is a Commercial Graduate with exposure to the construction industry for 5 years initially. He then gained 10 years of experience in Steel Industries with main contractors attached to Tata Steel , Jamshedpur and Tata Steel, Kalinga Nagar(Jajpur).He joined E.S.I.in the year 2015 in the capacity of A.G.M. He is responsible for all commercial negotiation, quotations and billing at our work site at Tata steel, Kalinga Nagar."
+            },
+            {
+                "name": "Mr. Gopalkrishnan",
+                "info": "Mr. Gopalakrishnan is an Electrical Engineer, started his career as Management Trainee (Tech) in Viskhapatnam Steel Plant (RINL) in November 1983 . He was attached to Design & Engineering department and later in 1988 to Construction department. He got trained in SIEMENS, Erlangen, Germany during 1987 and later was posted in Wire rod mill. He was promoted to the cadre of General Manager (Electrical) in WRM-2. He has over 35 years of experience in the Steel Industries in the fields of Projects, production and maintenance. He joined ESI in 2020 and is the Site Manager of JSW Site, the 14 Mii."
+            },
+            {
+                "name": "Mr. Padamashekar",
+                "info": "Mr. Padmasekhar is a Mechanical Engineer with more than 25 years of versatile experience, with 2 decades just in various Steel Industries in India which include firms like Vaisag Steel Ltd. He joined E.S.I. In the year 2018 as Dy.General Manager and is responsible for the mechanical maintenance activities at work sites at Tata steel, and also Jamshedpur and Tata steel, Jajpur; as and when found necessary. He also has adequate knowledge in Reverse Engineering Technique which is widely being applied in many Major Industries these days."
+            }
+        ],
+        "consultants": [
+            "MR. MATHEW ALEXANDER, EX-GM,VIZAG STEEL",
+            "MR. VASUDEVAN NAIR, EX-GM,VIZAG STEEL",
+            "MR GEORGE ABRAHAM, EX-GM,VIZAG STEEL",
+            "MR. WILSON DAVID, EX-DIRECTOR, VIZAG STEEL",
+            "MR. AJITH KUMAR, EX-DGM, ESSAR STEEL",
+            "MR. SURENDRAN, EX-GM,BHOKKARO STEEL",
+            "MR. NG RAO EX-VP, JSW STEEL",
+            "MR. SUNIL, EX-DGM, EZZAR STEEL",
+            "MR. RAJU"
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
+            "icon": "fa fa-gears",
+            "name": "Operational and maintenance services",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
+            "icon": "fa fa-rocket",
+            "name": "Turnkey Services",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
+            "icon": "fa fa-dashboard",
+            "name": "Front End Engineeering Design(FEED)",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
+            "icon": "fa fa-group",
+            "name": "Consulting & Technical Manpower Assistance (TMA)",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
+            "icon": "fa fa-shield",
+            "name": "Engineering Design Process (EDP)",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
+            "icon": "fa fa-wrench",
+            "name": "Fabrication & Erection Services",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-qq",
+            "name": "Robotics & factory Automation",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         }
-
-
     ],
+    "ServicesPage": {
+            "operations": {
+                "topic": "Operational and maintenance services",
+                "points": [
+                    "Enabling our clients to focus on core areas of business with our time bound, tailormade and holistic services that cater to all areas of operating and maintaining power plants, from industrial equipment, technology to manpower.",
+                    "Key Services-"
+                ],
+                "keyservices": [
+                    "Operational assistance to Steel, Aluminium & Other Power plants.",
+                    "Maintenance assistance to Steel, Aluminium and other power plants.",
+                    "Operational assistance to manufacturing units on tonnage basis.",
+                    "Commissioning assistance to New plants.",
+                    "Maintenance & Repairing assistance.",
+                    "Equipment & Machinery Rental with skilled manpower"
+                ],
+                "machines": "Cranes || Bulldozers ||  Hydras ||  Dumpers || Shovel Loaders || JCBs || Cars and Fleets"
+            },
+            "restServices": [
+                {
+                    "topic": "Turnkey Services",
+                    "points": "The term 'turnkey' is based on the concept of only needing to turn the key to unlock the doors to begin operations. ESI is well equipped and prepared to take up all turnkey projects to deliver safety through each phase of operations.",
+                    "keypoints": ["Operations and maintenance on turn-key basis." ]
+                },
+                {
+                    "topic": "Front End Engineering Design (FEED)",
+                    "points": "FEED (Front End Engineering Design) is conducted diligently after completion of Conceptual Design or Feasibility Study. Before the start of EPC (Engineering, Procurement and Construction), ESI undertakes various through studies and research to figure out technical issues and estimate investment cost",
+                    "keypoints": [
+                        "To maximise efficiency",
+                        "To make it cost effective"
+                    ]
+                }, 
+                {
+                    "topic": "Consulting & Technical Manpower Assistance (TMA)",
+                    "points": "ESI grants you access to suitably trained, qualified and experienced manpower assistance. With a blend of technology and human touch, ESI empowers talented and deserving individuals by helping them stay ahead of the competition with relevant with up-to-date skill and knowledge training.",
+                    "keypoints": [
+                        "Trained  manpower assistance",
+                        "Training Modules for skill and machinery usage training"
+                    ]
+                },
+                {
+                    "topic": "Engineering Design Process (EDP)",
+                    "points": "ESI devises systems, components and processes for seamless operations. Among the fundamental elements of the ESI engineering design process are the establishment of objectives and criteria, synthesis, analysis, construction, testing and evaluation to ensure successful implementation and functioning yet maintaining safety and cost efficiency. Safety being a top priority, ESI’s EDP is carefully crafted to implement all steps to ensure safe environment for the systems to function fluently."
+                },
+                {
+                    "topic": "Fabrication & Erection services",
+                    "points": "The efficiency of fabrication and erection in structural metalwork dictates the success of any project involving metal intensive construction. Steel and aluminum are produced and subsequently fabricated within a controlled environment. This ensures high quality, manufacture offsite with improved precision and enhanced speed of construction at site. ESI ensures proper planning of material delivery which in turn minimizes storage requirement and additional handling from the site storage, particularly of heavy items. Hence reducing risks."
+                }
+            ]
+            
+    },
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",

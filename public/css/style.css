@@ -199,7 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -218,10 +218,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
+	padding-top: 250px;
+	padding-bottom: 100px;
 	text-align: center;
 }
+/* Essences section */
+#essences {
+	padding: 100px 0;
+}
+
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -268,10 +273,10 @@ header .intro-text {
 	padding: 0;
 }
 #about .about-text li:before {
-	content: '\f00c';
+	content: '\f111';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
-	font-size: 11px;
+	font-size: 8px;
 	font-weight: 300;
 	padding-right: 8px;
 }
@@ -286,11 +291,30 @@ header .intro-text {
 	line-height: 24px;
 	margin: 30px 0;
 }
+
+#about .consultants li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+
+#about .consultants li:before {
+	content: '\f111';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 8px;
+	font-weight: 300;
+	padding-right: 8px;
+
+}
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: #d9d9d9;
 	color: #fff;
+	
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
@@ -313,7 +337,8 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #646aa1 0%, #6dc9c5 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -328,6 +353,57 @@ header .intro-text {
 }
 #services .service-desc {
 	margin-bottom: 40px;
+}
+/*Servicespage section*/
+#servicesPage {
+	padding: 150px 0;
+}
+
+#servicesPage .service-section {
+	text-align: left;
+}
+
+#servicesPage .service li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+
+#servicesPage .service-section .service li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: black;
+	font-size: 8px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
+#servicesPage .service-section li:before {
+	content: '\f111';
+	font-family: 'FontAwesome';
+	color: gray;
+	font-size: 8px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
+.restservices {
+	padding: 10px 0;
+}
+
+#servicesPage .service-section .restservices .keypoints li{
+	padding-left: 10px;
+	list-style: none;
+}
+
+#servicesPage .service-section .restservices .keypoints li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: black;
+	font-size: 8px;
+	font-weight: 300;
+	padding-right: 8px;
 }
 /* Portfolio Section */
 #portfolio {

@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 
 export class about extends Component {
   render() {
@@ -9,9 +11,15 @@ export class about extends Component {
             <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
-                <h2>About Us</h2>
-                <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
-                <h3>Why Choose Us?</h3>
+                <h2>History and The journey so far</h2>
+                <p>
+                  {this.props.data ? this.props.data.paragraph : 'loading...'} <br/>
+                  {this.props.data ? this.props.data.paragraph1 : 'loading...'} <br/>
+                  {this.props.data ? this.props.data.paragraph2 : 'loading...'} <br/>
+                  {this.props.data ? this.props.data.paragraph3 : 'loading...'} <br/>
+                  {this.props.data ? this.props.data.paragraph4 : 'loading...'}
+                </p>
+                <h3>Core Team</h3>
                 <div className="list-style">
                   <div className="col-lg-6 col-sm-6 col-xs-12">
                     <ul>
@@ -26,7 +34,24 @@ export class about extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+              </div>
+              <div className="col-md-12" style={{marginTop: "30px"}}>
+                  {this.props.data ? this.props.data.coreteam.map((person, i) => (
+                    <div key={`${i}`}>
+                      <h4>{person.name}</h4>
+                      <p>{person.info}</p>
+                      <hr/>
+                    </div>
+                  )) : "loading..."}
+              </div>
+              <div className="col-md-12 consultants" style={{marginTop: "30px"}}>
+                  <div className="col-lg-6 col-sm-6 col-xs-12">
+                    <h2>Consultants of ESI</h2>
+                    <ul>
+                      {this.props.data ? this.props.data.consultants.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
+                    </ul>
+                  </div>
+              </div>
           </div>
         </div>
       </div>

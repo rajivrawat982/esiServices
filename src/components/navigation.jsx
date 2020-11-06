@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 export class Navigation extends Component {
   render() {
@@ -18,9 +19,10 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
+            {/* <a className="navbar-brand page-scroll" href="#page-top">
               Engineering Services International
-            </a>{" "}
+            </a>{" "} */}
+            <Link to="/" className="navbar-brand">Engineering Services International</Link>
           </div>
 
           <div
@@ -29,19 +31,16 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
+                {/* <a href="#features" className="page-scroll">
                   Features
-                </a>
+                </a> */}
+                <Link to="/features">Features</Link>
               </li>
               <li>
-                <a href="#about" className="page-scroll">
-                  About
-                </a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
-                  Services
-                </a>
+                <Link to="/services">Services</Link>
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
