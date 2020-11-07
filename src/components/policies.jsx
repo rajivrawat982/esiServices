@@ -12,8 +12,15 @@ class Policies extends Component {
                     </p>
                 </div>
                 <div className="row">
+                    <div className="col-md-12 accidentfree">
+                        <h3>Accident Free Steel</h3>
+                        <ul>
+                            {this.props.data ? this.props.data.accidentfree.map((d, i) => <li>{d}</li>) : "loading"}
+                        </ul>
+
+                    </div>
                     {this.props.data ?
-                        this.props.data.map((d, i) => (
+                        this.props.data.array.map((d, i) => (
                             <div key={`${i}`} className="col-xs-12 col-md-6 policy">
                                 {" "}
                                 <h3>{d.title}</h3>

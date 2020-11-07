@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+
 
 class ServicesPage extends Component {
     render() {
@@ -44,6 +46,19 @@ class ServicesPage extends Component {
 
                 : "loading..."}
                 </div>
+                <div>
+                { this.props.data ?
+                        (
+                            <div className="col-md-12">
+                                <h3>{this.props.data.robotics.topic}</h3>
+                                <ul>
+                                    {this.props.data ? this.props.data.robotics.points.map((d, i) => <li>{d}</li>) : "loading..."}
+                                </ul>
+                            </div>
+                        )
+                : "loading..."}
+                </div>
+               
                 </div>
                 </div>
             </div>

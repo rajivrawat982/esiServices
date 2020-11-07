@@ -492,11 +492,33 @@ header .intro-text {
 
 /*Policies Section*/
 #policies {
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 #policies .policy>p {
 	text-align: left;
+}
+
+#policies .accidentfree  li{
+	text-align: left;
+	margin-bottom: 8px;
+	margin-left: 6px;
+	list-style: square;
+}
+/* Projects Section */
+#projects {
+	padding: 150px 0;
+}
+
+#projects .project-list {
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+#projects .site {
+	text-align: left;
+	padding-top: 70px;
 }
 
 /* Team Section */
@@ -545,6 +567,33 @@ header .intro-text {
 	text-transform: none !important;
 	font-weight: 400;
 	font-size: 25px;
+}
+/* Recent Accolades */
+#recentaccolades .recent-section {
+	padding: 150px 0;
+}
+
+#recentaccolades .recent-section .svgbot {
+	padding: 200px 0;
+}
+
+
+#recentaccolades .recent-section .points li {
+	margin-top: 30px;
+	margin-bottom: 8px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+	text-align: left;
+}
+
+#recentaccolades .recent-section .points li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
 }
 
 /* Contact Section */

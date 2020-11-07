@@ -164,7 +164,14 @@
                     "topic": "Fabrication & Erection services",
                     "points": "The efficiency of fabrication and erection in structural metalwork dictates the success of any project involving metal intensive construction. Steel and aluminum are produced and subsequently fabricated within a controlled environment. This ensures high quality, manufacture offsite with improved precision and enhanced speed of construction at site. ESI ensures proper planning of material delivery which in turn minimizes storage requirement and additional handling from the site storage, particularly of heavy items. Hence reducing risks."
                 }
-            ]
+            ],
+            "robotics": {
+                "topic": "Robotics and factory Automation",
+                "points": [
+                    "With the ultimate aim of increasing efficiency, speed and overall performance, ESI ventured into Robotics and Factory automation. Currently our services encompass Integration of Robots and systems, Ordering and sourcing Robots and other material, Installation and Maintenance of robots and systems.",
+                    "Automated manufacturing solutions are a key part of any operation that aims for maximized efficiency, safety and competitive edge. Manufacturing robots automate repetitive tasks, reduce margins of error to negligible rates, and enable human workers to focus on more productive areas of the operation. While envisioning future, one can’t help but think of factory automations. ESI ventured into robotics and factory automation to embrace the future and be prepared for it."    
+                ]
+            }
             
     },
     "Testimonials": [{
@@ -264,19 +271,27 @@
             "text": "Delivering professional training in maintenance and industrial engineering."
         }
     ],
-    "Policies": [{
-        "title": "Environment Policy",
-        "paragraph": "A sound mind exists in a sound body” that is how the proverb goes. Accordingly, health is an important aspect in human life, and therefore it is important for us to see that all our employees maintain good health so that they can perform their normal duties efficiently and effectively, and make his earnings to support his family, and lead a comfortable life. Cleanliness and hygiene play vital role in maintaining normal health of human race, or otherwise it will invite deceases causing damages to health. Good housekeeping within the Plant is very significant and therefore, we educate our employees to maintain good housekeeping in their respective work areas, as they may be doing in their own homes; in order to provide a healthy working- environment. Controlling/ minimizing air and sound pollution at the work place is equally important to maintain good and healthy environment, everyone should understand and pay attention not to make the atmosphere polluted, and therefore smoking at the work place is prohibited. All our employees are informed at the time of their induction about the importance of maintaining healthy environment in their place of work. Our Area Supervisors are instructed to ensure that the employees in their respective areas understand the concept fully well, and maintain their work areas neat and tidy after completing a given task/ at the end of their duty hours on regular basis.",
-        "author": "A P Paulose",
-        "designation": "Managing Director"
-        },
-        {
-         "title": "Drugs and Alcohol Policy",
-         "paragraph": "We Engineering Services International are committed to maintain a safe and healthy working culture among our Employees in all our Work sites. For maintaining the above, we understand it is important to ensure that none of our employee comes to work consuming intoxicated Drugs/Alcoholic Drinks, nor they consume any of such intoxicating substances while at work. If anyone works in the Plant after consuming intoxicating substances he may not have his normal balance of mind and it might end up with untoward incidents like quarrels, infighting or even accidents affecting him and also other innocent fellow worker. We have included this policy in our induction programme, and all our employees are informed regarding the same at the time of their recruitment procedures. Our Area Supervisors are asked to keep a vigil on the employees to ensure that they strictly adhere to our policy and abstain from using Drugs or any other alcoholic substances during duty hours. Our policy is to ensure 100% effectiveness of its purpose; and therefore we will closely monitor and initiate strict disciplinary action against any defaulters as indicated in our Employee Induction Programme.",
-         "author": "A P Paulose",
-        "designation": "Managing Director"   
-        }
-    ],
+    "Policies": { 
+        "array": [{
+            "title": "Environment Policy",
+            "paragraph": "A sound mind exists in a sound body” that is how the proverb goes. Accordingly, health is an important aspect in human life, and therefore it is important for us to see that all our employees maintain good health so that they can perform their normal duties efficiently and effectively, and make his earnings to support his family, and lead a comfortable life. Cleanliness and hygiene play vital role in maintaining normal health of human race, or otherwise it will invite deceases causing damages to health. Good housekeeping within the Plant is very significant and therefore, we educate our employees to maintain good housekeeping in their respective work areas, as they may be doing in their own homes; in order to provide a healthy working- environment. Controlling/ minimizing air and sound pollution at the work place is equally important to maintain good and healthy environment, everyone should understand and pay attention not to make the atmosphere polluted, and therefore smoking at the work place is prohibited. All our employees are informed at the time of their induction about the importance of maintaining healthy environment in their place of work. Our Area Supervisors are instructed to ensure that the employees in their respective areas understand the concept fully well, and maintain their work areas neat and tidy after completing a given task/ at the end of their duty hours on regular basis.",
+            "author": "A P Paulose",
+            "designation": "Managing Director"
+            },
+            {
+            "title": "Drugs and Alcohol Policy",
+            "paragraph": "We Engineering Services International are committed to maintain a safe and healthy working culture among our Employees in all our Work sites. For maintaining the above, we understand it is important to ensure that none of our employee comes to work consuming intoxicated Drugs/Alcoholic Drinks, nor they consume any of such intoxicating substances while at work. If anyone works in the Plant after consuming intoxicating substances he may not have his normal balance of mind and it might end up with untoward incidents like quarrels, infighting or even accidents affecting him and also other innocent fellow worker. We have included this policy in our induction programme, and all our employees are informed regarding the same at the time of their recruitment procedures. Our Area Supervisors are asked to keep a vigil on the employees to ensure that they strictly adhere to our policy and abstain from using Drugs or any other alcoholic substances during duty hours. Our policy is to ensure 100% effectiveness of its purpose; and therefore we will closely monitor and initiate strict disciplinary action against any defaulters as indicated in our Employee Induction Programme.",
+            "author": "A P Paulose",
+            "designation": "Managing Director"   
+            } ],
+        "accidentfree": [
+            "Steel Industry necessitates safe working procedures, as workers face many risks due to the nature of the job. The work environment is often challenging being hot and noisy, and the work tasks demand heavy body strength and involvement, and there is an always present risk for crushing injuries and burns. Steel companies have significantly improved their safety performance over the last 10 years, but many have reached a plateau where further progress is difficult to envision. To take safety to the next level, it is necessary to go beyond our traditional methods of approach and to challenge the implicit acceptance that we operate in a potentially hazardous industry where some accidents are inevitable. The new thinking states clearly that all accidents are avoidable and “Accident-Free” Steel is a practical goal for the future.",
+            "As our core team has significant experience in the steel industry, we are aware of the high level of risk to which employees are exposed to. Yet, many new practices in steel companies have demonstrated that an accident-free environment is a practical and achievable goal. This evolution is not only the result of a greater awareness of a moral obligation but also the fact that the legal requirements have become more and more stringent. We thrive on updating ourselves and training our team and staff to be up-to-date with the prevalent safety measures.",
+            "Another strong reason is the realization that safety excellence will act as a catalyst for better overall corporate performance.",
+            "While maintaining environmental friendly practices, we proudly maintain health & hygiene of our team and staff.",
+            "Training and education are the only ways to enlighten and make our team aware of the practices as per Environmental policy and Safety policy. We ensure timely training for the team with a commitment to seamless service system."
+        ]
+     },
     "Workaspects": {
         "accommodation": [
             "Senior executives",
@@ -299,6 +314,94 @@
             "10% flexibility should be available to meet the emergency conditions on a monthly bill.",
             "The services taxes and WCT will be extra, wherever applicable.",
             "The payment should be released within two weeks on submission of bills."
+        ]
+    },
+    "recentAccolades": [
+        "In the year 2019, ESI started venturing into the Middle East in Qatar. The firm is registered in Doha. In 2020, ESI started its operational activities at Sultanate of Oman With Jindal Steel at Shoar.",
+        "ESI’s new advanced service initiatives are Robotics & Factory Automation System Design, O&M for Automated Factories, and Large Scale Steel Structures Design & Fabrication. ESI has recently been awarded a government contract to build the first Robot Museum in INDIA, Ahmedabad, Gujarat. This contract includes facility management and O&M for 5 years after the 2 years of works phase."
+    ],
+    "Projects": {
+        "projects": [
+            "JSW Steel Ltd, Tornagallu, Karnataka State",
+            "JSSL- Site, at Tornagallu, Karnataka",
+            "ANDRITZ- Site, at Toranagallu, Karnataka",
+            "JSW Cement, Toranagallu, Karnataka",
+            "JAL- Site, Jindal Nagar, Bangalore-73",
+            "TBSL- Site, at Meramandali, Odisha",
+            "TATA Steel- Site, at Kalinganagar, Odisha",
+            "TATA Steel- Site, at Jamshedpur, Jharkkand"
+        ],
+        "sites": [
+            {
+                "siteName": "JSW Steel Ltd, Tornagallu, Karnataka State",
+                "esiRole": ["nearly 1100 skilled manpower has been sourced to JSW Steel Site at Tornagallu in various departments. Technicians, Fitters, Welders, to Crane operators, Fabricators, Supervisors, Engineers and Managers."],
+                "siteDetails": [
+                    { "designation": "Site Manager", "name": "Mr. Gopalkrishnan" },
+                    { "designation": "Area Manager", "name": "Mr. Deshpande" },
+                    { "designation": "Area Manager", "name": "Mr. Vittal" },
+                    { "designation": "Admin Mgr.", "name": "Mr. Manjunath" },
+                    { "designation": "Site Engineer", "name": "Mr. Bharath" },
+                    { "designation": "Site Engineer", "name": "Mr. Bhagawan" }
+                ],
+                "buttontag": "OPERATIONAL DETAILS"
+            },
+            {
+                "siteName": "JSSL- Site, at Tornagallu, Karnataka",
+                "esiRole": ["JSSL- Jindal Severfield Structures Limited is a sister concern of JSW and a Joint venture with Sever field Structure LTD, UK. They are one of the leading Structural Fabrication Companies in India.",
+                            "Around 130 workforce, Technicians, Operators, Supervisors are engaged in the plant and we, ESI are the main manpower provider in this complex."],
+                "siteDetails": [
+                    { "designation": "Site In-charge" , "name": "Mr. Deshpande"},
+                    { "designation": "Site Engineer" , "name": "Mr. Sheshwali"}
+                ],
+                "buttontag": "MANPOWER DETAILS"
+            },
+            {
+                "siteName": "ANDRITZ- Site, at Toranagallu, Karnataka",
+                "esiRole": ["We have more than 30 men deployed at Andritz for the Hyper Baric Filter Plant at Bellary, taking care of O&M of the plants. This is a specialized job, that involves very precise upkeep of the plant while following the best practices to ensure the maximum availability of the plant."],
+                "siteDetails": [
+                    { "designation": "Site In-charge", "name": "Mr. Gopalkrishnan"},
+                    { "designation": "Site Coordinator", "name": "Mr. Deshpande"}
+                ]
+            },
+            {
+                "siteName": "JSW Cement, Toranagallu, Karnataka",
+                "esiRole": ["We have over 65 men deployed, taking care of O & M of the entire plant."],
+                "siteDetails": [
+                    { "designation": "Site In-charge", "name": "Mr. Gopalkrishnan"},
+                    { "designation": "Site Coordinator", "name": "Mr. xxyxz"}
+                ]
+            },
+            {
+                "siteName": "JAL- Site, Jindal Nagar, Bangalore-73",
+                "esiRole": ["This Plant consists of 6 Hydraulic Pressess and is the biggest aluminum extrusion plant in India under one roof. They produce around 6000 different types of Products patterns. The monthly production is around 4000T to 5000T. Around 45 Technicians are deployed for the Maintenance of the plant , consisting of Hydraulic units, Cranes."],
+                "siteDetails": [
+                    { "designation": "Site In-charge", "name": "Mr. Ashok Sangan"},
+                    { "designation": "Site Coordinator", "name": "Mr. Charlson"}
+                ]
+            },
+            {
+                "siteName": "TBSL- Site, at Meramandali, Odisha",
+                "esiRole": [ "The Sinter Plant 2 and 3 are maintained on O&M pattern. All the required equipments and also tools and tackles are being managed by ESI.The plant is being operated on tonnage basis after the PG test.", 
+                    "159 Technicians are provided for each plant (159 x 2=318) for the whole Operation and Maintenance."],
+                "siteDetails": [ 
+                    { "designation": "Site In-charge", "name": "Mr. Shiva Balakrishnan"},
+                    { "designation": "Site Coordinator", "name": "Mr. Rajat"},
+                    { "designation": "Site Engineer (Mec)" , "name": "Mr. Sunil Nayak"},
+                    { "designation": "Site Engineer (Elec)", "name": "Mr. Santhosh Gowda"},
+                    { "designation": "Site Engineer (Opn)", "name": "Mr. S. Shekar"}
+                ]
+            },
+            {
+                "siteName": "TATA Steel- Site, at Kalinganagar, Odisha",
+                "esiRole": [ "ESI is very proud to associate with the biggest industrial group in India and credible global multinational company, TATA GROUP, in their Kalinganagar and Jamshedpur Project works. We have deployed nearly 520 manpower for its operations and maintenance."],
+                "siteDetails": [
+                    { "designation": "Site In-charge", "name": "Mr. Shiva Balakrishnan"},
+                    { "designation": "Site Coordinator", "name": "Mr. Ommen Abraham, AGM"},
+                    { "designation": "Area Manager", "name": "Mr. Pranav"},
+                    { "designation": "Area Manager", "name": "Mr. Clement Ukru"}
+                ],
+                "buttontag": "DETAILS"
+            }
         ]
     }
 }

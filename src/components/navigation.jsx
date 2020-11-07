@@ -30,12 +30,7 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-              <li>
-                {/* <a href="#features" className="page-scroll">
-                  Features
-                </a> */}
-                <Link to="/features">Features</Link>
-              </li>
+              
               <li>
                 <Link to="/about">About</Link>
               </li>
@@ -43,14 +38,10 @@ export class Navigation extends Component {
                 <Link to="/services">Services</Link>
               </li>
               <li>
-                <a href="#portfolio" className="page-scroll">
-                  Clients
-                </a>
+                <Link to="/recent">Recent</Link>
               </li>
               <li>
-                <a href="#policies" className="page-scroll">
-                  Policies
-                </a>
+                <Link to="/policies">Policies</Link>
               </li>
               {/* <li>
                 <a href="#testimonials" className="page-scroll">
@@ -58,9 +49,10 @@ export class Navigation extends Component {
                 </a>
               </li> */}
               <li>
-                <a href="#team" className="page-scroll">
+                {/* <a href="#team" className="page-scroll">
                   Team
-                </a>
+                </a> */}
+                <Link to="/projects">Projects</Link>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
