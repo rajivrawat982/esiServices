@@ -18,14 +18,13 @@ export class Services extends Component {
                     <i className={d.icon}></i>
                     <div className="service-desc">
                       <h3>{d.name}</h3>
-                      {/* <p>{d.text}</p> */}
+                      
                     </div>
                   </div>
                 ))
               : "loading"}
           </div>
-          
-          <Link to="/services#contact" className="btn btn-custom btn-lg">Services</Link>
+          <Link to="/services" className="btn btn-custom btn-lg">Services</Link>
         </div>
       </div>
     );

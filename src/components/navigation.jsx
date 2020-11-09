@@ -22,7 +22,7 @@ export class Navigation extends Component {
             {/* <a className="navbar-brand page-scroll" href="#page-top">
               Engineering Services International
             </a>{" "} */}
-            <Link to="/" className="navbar-brand">Engineering Services International</Link>
+            <Link to="/" className="navbar-brand esilogo"><img src="./img/esilogo.png" alt="esi logo"/></Link>
           </div>
 
           <div
@@ -41,18 +41,10 @@ export class Navigation extends Component {
                 <Link to="/recent">Recent</Link>
               </li>
               <li>
-                <Link to="/policies">Policies</Link>
-              </li>
-              {/* <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
-                </a>
-              </li> */}
-              <li>
-                {/* <a href="#team" className="page-scroll">
-                  Team
-                </a> */}
                 <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/policies">Policies</Link>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">

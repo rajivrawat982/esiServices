@@ -343,7 +343,8 @@
                     { "designation": "Site Engineer", "name": "Mr. Bharath" },
                     { "designation": "Site Engineer", "name": "Mr. Bhagawan" }
                 ],
-                "buttontag": "OPERATIONAL DETAILS"
+                "buttontag": "OPERATIONAL DETAILS",
+                "siteurl": "jswsteel"
             },
             {
                 "siteName": "JSSL- Site, at Tornagallu, Karnataka",
@@ -353,7 +354,8 @@
                     { "designation": "Site In-charge" , "name": "Mr. Deshpande"},
                     { "designation": "Site Engineer" , "name": "Mr. Sheshwali"}
                 ],
-                "buttontag": "MANPOWER DETAILS"
+                "buttontag": "MANPOWER DETAILS",
+                "siteurl": "jssl"
             },
             {
                 "siteName": "ANDRITZ- Site, at Toranagallu, Karnataka",
@@ -400,8 +402,75 @@
                     { "designation": "Area Manager", "name": "Mr. Pranav"},
                     { "designation": "Area Manager", "name": "Mr. Clement Ukru"}
                 ],
-                "buttontag": "DETAILS"
+                "buttontag": "DETAILS",
+                "siteurl": "tatasteel"
             }
         ]
-    }
+    },
+    "jswSteel": [
+        {
+            "device": "CRANE OPERATORS",
+            "point": "75 Crane operators are working with CCP & BOF for Overhead crane operations."
+        },
+        {
+            "device": "EARTH MOVING EQUIPMENTS",
+            "point": "Nearly 50 Technicians are engaged in Liebherr crane, MK-101, Hydraulic Crane, Trailer Driver, Hydra operations, Bulldozer operators etc."
+        },
+        {
+            "device": "CRANE MAINTENANCE",
+            "point": "The strength of technicians is around 170 and the entire Crane Maintenance is being taken care of by the ESI work force."
+        },
+        {
+            "device": "CCP & BOF OPERATION & MAINTENANCE",
+            "point": "Nearly 70 skilled personnel have been deployed to look after the entire maintenance and operation CCP and BOF in this plant."
+        },
+        {
+            "device": "COREX OPERATION & MAINTENANCE",
+            "point": "Nearly 20 Technicians are deployed in this plant for the day to day maintenance activities."
+        },
+        {
+            "device": "PELLET PLANT",
+            "point": "Nearly 85 technicians are deployed for the operation and maintenance of the Plant on Tonnage Basis, where ESI is totally responsible for this aspect."
+        },
+        {
+            "device": "CEMENT PLANT OPERATION & MAINTENANCE",
+            "point": "Around 70 Manpower in terms of Engineers, Supervisors and Technicians are deployed to this plant. The COREX and BLAST FURNACE slag is ground and used to produce the Cement at JSW. We at the ESI are solely responsible for the Entire operation and Maintenance of the Plant. No JSW Engineers are available in the night."
+        },
+        {
+            "device": "SINTERING PLANT-1",
+            "point": "Nearly 60 Technicians are deployed for the operation and maintenance of the Plant on Tonnage Basis."
+        },
+        {
+            "device": "HMPT-LCP-EMD",
+            "point": "Around 90 Manpower, Supervisors and Technicians are deployed to these plants to manage it solely by ESI."
+        },
+        {
+            "device": "SINTERING PLANT-2",
+            "point": "Nearly 40 Technicians are deployed for the operation of the Plant . We ESI is totally responsible for the Operation of the Plant."
+        },
+        {
+            "device": "RMHS- 4M & 7M",
+            "point": "Around 150 Manpower, Supervisors and Technicians, Stacker operators, Barrel Reclaimer Operators are deployed at these plants. ESI is totally responsible for the Entire operation and Maintenance of the Plant."
+        },
+        {
+            "device": "BENEFICATION PLANT NO-1 & 2",
+            "point": "There are almost 185 Workers deployed as under: Operators for process and Assistant operators Operators for Stacker, Twin boom and Barrel- Reclaimer ESI is fully responsible for the operation of the plant."
+        },
+        {
+            "device": "TASK FORCE",
+            "point": "ESI is maintaining a group of Technicians to meet emergency situation as and when arises in the plant. In normal cases these technicians are deployed for the overhauling of equipment such as, OH of Gear assemblies, OH of Compressors, OH of Gibb cranes, Changing of Bucket elevators, Changing of Liner plates in the Ball Mills, Erection of compressors, OH of pumps and small vessels and small fabrication and modification jobs."
+        },
+        {
+            "device": "ASSOCIATION FOR COMMISSIONING and PERIODICAL REPAIRS",
+            "point": "ESI provides all categories of Skilled Technicians, Welders, Cutters, Fitters, Supervisors, Inspectors for the association for the Commissioning jobs as and when required on contract basis. We provide all types of Skilled Technicians,Welders, Cutters, Fabricators, Fitters, Supervisors, Master Technicians for the Periodical and shutdown jobs as and when required on contract basis."
+        }
+    ],
+    "jsslSite": ["Mig Welders", "Fabricators", "CNC Operators", "Milling Operators", "Electricians", "Painters", "Sand blasters", "Forklift and Side loader Operator"] ,
+    "tataSteel": [
+        "The Entire Maintenance activity of Sinter Plant at Kalinganagar is taken care of by ESI and around 100 Manpower, including Technicians and Executives are deployed for this Job.",
+        "The Entire Maintenance of Base Mixing Plant at Kalinganagar is taken care by ESI and around 70 Technicians and required executives are deployed for this Job.",
+        "The whole maintenance activity at RMHS at Kalinganagar is taken care of ESI and including the Executives and Technicians around 80 Manpower is engaged for the smooth functioning of the entire maintenance job.",
+        "Around 220 Technicians (Electrical) and necessary Executives are deployed for their Central Maintenance activities at Kalinganagar, as such ESI is being associated with Electrical groups as well.",
+        "In Jamshepdur, about 50 manpower is deployed in various plants like Pellet Plant for their day-to-day maintenance activities."
+    ]
 }

@@ -23,6 +23,9 @@ class Projects extends Component {
                             : "loading..."}
                             </ul>
                         </div>
+                        <div className="col-md-6">
+                                <img src="./img/projectdiscussion.jpg" alt="project img" className="project-image"/>
+                        </div>
                         <div className="col-md-12">
                                 { this.props.data ?
                                     this.props.data.sites.map((site, i) => (
@@ -36,7 +39,9 @@ class Projects extends Component {
                                             <ul>
                                                 {this.props.data ? site.siteDetails.map((d, i) => <li>{`${d.designation}   :  ${d.name}`}</li>) : "loading..."}
                                             </ul>
-                                            <Link to={`#`}>{`${site.buttontag} >>`}</Link>
+                                            { site.buttontag ? 
+                                            <Link to={`/${site.siteurl}`}>{`${site.buttontag} >>`}</Link>
+                                            : " " }
                                         </div>
                                     ))
                                  : "loading..."}

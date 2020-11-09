@@ -55,7 +55,7 @@ export class Contact extends Component {
               </div>
             </div>
             <div className="col-md-12">
-              <div className="row">
+              {/* <div className="row">
                 <div className="social">
                   <ul>
                     <li>
@@ -77,14 +77,14 @@ export class Contact extends Component {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 esiservices. Designed by Rajeev Rawat{" "}
+              &copy; 2020 esiservices.{" "}
             </p>
           </div>
         </div>

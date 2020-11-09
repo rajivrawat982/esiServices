@@ -80,6 +80,7 @@ hr {
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
+	
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
@@ -105,6 +106,33 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
+
+#menu .navbar-header .esilogo img {
+	width: 180px;
+	height: 70px;
+	object-fit: contain;
+	transform: translateY(-30%);
+}
+
+@media (max-width: 768px) {
+	#menu .navbar-header .esilogo img {
+		width: 150px;
+		height: 50px;
+		object-fit: contain;
+		transform: translateY(-30%);
+	}
+}
+
+/* @media (max-width: 1000px) and (min-width: 768px) {
+	#menu .navbar-header .esilogo img {
+		width: 150px;
+		height: 50px;
+		object-fit: contain;
+		transform: translateY(-30%);
+	}
+} */
+
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
@@ -312,20 +340,20 @@ header .intro-text {
 #services {
 	padding: 100px 0;
 	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-	background: #d9d9d9;
-	color: #fff;
 	
 }
+
+
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
 #services h2 {
-	color: #fff;
+	color: #1f386e;
 }
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: rgba(79, 94, 136, 0.3);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -337,8 +365,8 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-	background: linear-gradient(to right, #646aa1 0%, #6dc9c5 100%);
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -346,13 +374,14 @@ header .intro-text {
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: #fff;
+	color: #1f386e;
 }
 #services p {
 	color: rgba(255,255,255,.75);
 }
 #services .service-desc {
 	margin-bottom: 40px;
+	
 }
 /*Servicespage section*/
 #servicesPage {
@@ -742,4 +771,50 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+
+
+/* Sites pages styling*/
+#tatasteel {
+	padding: 150px 0;
+}
+
+#tatasteel .tata-section li{
+	text-align: left;
+	margin: 6px 0;
+}
+
+#tatasteel .tata-section {
+	margin-bottom: 30px;
+}
+
+#jssl {
+	padding: 150px 0;
+}
+
+#jssl .jssl-section {
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+#jssl .jssl-section li {
+	margin-bottom: 6px;
+}
+
+#jswsteel {
+	padding: 150px 0;
+}
+
+#jswsteel .jswsteel-section li {
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+#jswsteel .jswsteel-section {
+	margin-bottom: 30px;
+}
+
+/*projects section*/
+#projects .project-image {
+	width: 400px;
 }
