@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 class Projects extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
     render() {
         return (
             <div id="projects" className="text-center">

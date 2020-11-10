@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-
+import { withRouter} from 'react-router-dom';
 
 
 class ServicesPage extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
     render() {
         return (
             <div id="servicesPage" className="text-center">
@@ -66,4 +70,4 @@ class ServicesPage extends Component {
     }
 }
 
-export default ServicesPage;
+export default withRouter(ServicesPage);

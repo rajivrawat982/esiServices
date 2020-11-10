@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import {Link} from 'react-router-dom';
 
 export class Navigation extends Component {
+  componentDidMount(){
+
+  }
+
   render() {
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -22,7 +26,7 @@ export class Navigation extends Component {
             {/* <a className="navbar-brand page-scroll" href="#page-top">
               Engineering Services International
             </a>{" "} */}
-            <Link to="/" className="navbar-brand esilogo"><img src="./img/esilogo.png" alt="esi logo"/></Link>
+            <Link to="/"  className="navbar-brand esilogo"><img src="./img/esilogo.png" alt="esi logo"/></Link>
           </div>
 
           <div
@@ -32,22 +36,22 @@ export class Navigation extends Component {
             <ul className="nav navbar-nav navbar-right">
               
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" data-toggle="collapse" data-target=".navbar-collapse">About</Link>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to="/services" data-toggle="collapse" data-target=".navbar-collapse">Services</Link>
               </li>
               <li>
-                <Link to="/recent">Recent</Link>
+                <Link to="/recent" data-toggle="collapse" data-target=".navbar-collapse">Recent</Link>
               </li>
               <li>
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects" data-toggle="collapse" data-target=".navbar-collapse">Projects</Link>
               </li>
               <li>
-                <Link to="/policies">Policies</Link>
+                <Link to="/policies" data-toggle="collapse" data-target=".navbar-collapse">Policies</Link>
               </li>
               <li>
-                <a href="#contact" className="page-scroll">
+                <a href="#contact" className="page-scroll" data-toggle="collapse" data-target=".navbar-collapse">
                   Contact
                 </a>
               </li>
@@ -60,3 +64,10 @@ export class Navigation extends Component {
 }
 
 export default Navigation;
+
+
+/* 
+This [data-toggle="collapse" data-target=".navbar-collapse"] added in every link to collapse 
+the navbar on clicking on linl in small devices
+
+*/

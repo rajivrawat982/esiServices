@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 
 
 
-export class about extends Component {
+
+class about extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
         <div id="about">
@@ -59,4 +65,4 @@ export class about extends Component {
   }
 }
 
-export default about
+export default about;

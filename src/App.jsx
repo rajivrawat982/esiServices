@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
-import Features from './components/features';
+
 import About from './components/about';
 import ServicesPage from './components/servicesPage';
 import Contact from './components/contact';
@@ -37,7 +37,7 @@ export class App extends Component {
         <Navigation />
         <Switch>
           <Route path="/"  exact component={Home}/>
-          <Route path="/features" exact render={(props) => (<Features {...props} data={this.state.landingPageData.Features}/>)} />
+          {/* <Route path="/features" exact render={(props) => (<Features {...props} data={this.state.landingPageData.Features}/>)} /> */}
           <Route path="/about" exact render={(props) => (<About {...props} data={this.state.landingPageData.About}/>)} />
           <Route path="/services" exact render={(props) => (<ServicesPage {...props} data={this.state.landingPageData.ServicesPage}/>)}/>
           <Route path="/recent" exact render={(props) => (<RecentAccolades {...props} data={this.state.landingPageData.recentAccolades}/>)} />
@@ -62,3 +62,7 @@ export class App extends Component {
 
 export default App;
 
+
+
+
+/* "homepage": "http://rajivrawat982.github.io/esiServices"*/

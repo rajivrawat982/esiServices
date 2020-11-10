@@ -16,6 +16,7 @@ export class Home extends Component {
     
       componentDidMount() {
         this.getlandingPageData();
+        window.scrollTo(0 , 0);
       }
 
     render() {

@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import Robotsvg from './robotsvg';
 
-export class RecentAccolades extends Component {
+class RecentAccolades extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
+
     render() {
         return (
             <div id="recentaccolades" className="text-center">

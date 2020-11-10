@@ -1,4 +1,5 @@
-{ "homepage": "http://rajivrawat982.github.io/esiServices",
+{ 
+  "homepage": "http://rajivrawat982.github.io/esiServices",
   "name": "landingpage-react-template",
   "private": true,
   "dependencies": {
@@ -35,3 +36,4 @@
     ]
   }
 }
+
