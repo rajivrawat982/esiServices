@@ -1,6 +1,6 @@
 { 
   "homepage": "http://rajivrawat982.github.io/esiServices",
-  "name": "landingpage-react-template",
+  "name": "esi-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

@@ -36,22 +36,22 @@ export class Navigation extends Component {
             <ul className="nav navbar-nav navbar-right">
               
               <li>
-                <Link to="/about" data-toggle="collapse" data-target=".navbar-collapse">About</Link>
+                <Link to="/about" >About</Link>
               </li>
               <li>
-                <Link to="/services" data-toggle="collapse" data-target=".navbar-collapse">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/recent" data-toggle="collapse" data-target=".navbar-collapse">Recent</Link>
+                <Link to="/recent" >Recent</Link>
               </li>
               <li>
-                <Link to="/projects" data-toggle="collapse" data-target=".navbar-collapse">Projects</Link>
+                <Link to="/projects">Projects</Link>
               </li>
               <li>
-                <Link to="/policies" data-toggle="collapse" data-target=".navbar-collapse">Policies</Link>
+                <Link to="/policies" >Policies</Link>
               </li>
               <li>
-                <a href="#contact" className="page-scroll" data-toggle="collapse" data-target=".navbar-collapse">
+                <a href="#contact" className="page-scroll">
                   Contact
                 </a>
               </li>
