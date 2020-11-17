@@ -1,5 +1,6 @@
 
 function main() {
+  
 
 (function () {
    'use strict';
@@ -23,21 +24,25 @@ function main() {
         offset: 80
     });
 
-	// Hide nav on click
-  $(".navbar-nav li").click(function (event) {
-    // check if window is small enough so dropdown is created
-    var toggle = $(".navbar-toggle").is(":visible");
-    if (toggle) {
-      $(".navbar-collapse").collapse('hide');
-    }
+  // Hide nav on click
+  $(document).ready(function(e) {  
+    $(".navbar-nav li").click(function (event) {
+      // check if window is small enough so dropdown is created
+      var toggle = $(".navbar-toggle").is(":visible");
+      //console.log("enter in main click function");
+      if (toggle) {
+        $(".navbar-collapse").collapse('hide');
+      }
+    });
   });
+
 	
 	
     // Nivo Lightbox 
-    $('.portfolio-item a').nivoLightbox({
-            effect: 'slideDown',  
-            keyboardNav: true,                            
-        });
+    // $('.portfolio-item a').nivoLightbox({
+    //         effect: 'slideDown',  
+    //         keyboardNav: true,                            
+    //     });
 		
 }());
 
