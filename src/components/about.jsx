@@ -18,13 +18,11 @@ class about extends Component {
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <h2>History and The journey so far</h2>
-                <p>
-                  {this.props.data ? this.props.data.paragraph : 'loading...'} <br/>
-                  {this.props.data ? this.props.data.paragraph1 : 'loading...'} <br/>
-                  {this.props.data ? this.props.data.paragraph2 : 'loading...'} <br/>
-                  {this.props.data ? this.props.data.paragraph3 : 'loading...'} <br/>
-                  {this.props.data ? this.props.data.paragraph4 : 'loading...'}
-                </p>
+                <p>{this.props.data ? this.props.data.paragraph : 'loading...'} </p>
+                <p>{this.props.data ? this.props.data.paragraph1 : 'loading...'} </p>
+                <p>{this.props.data ? this.props.data.paragraph2 : 'loading...'} </p>
+                <p>{this.props.data ? this.props.data.paragraph3 : 'loading...'} </p>
+                <p>{this.props.data ? this.props.data.paragraph4 : 'loading...'} </p>
                 <h3>Core Team</h3>
                 <div className="list-style">
                   <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -51,7 +49,7 @@ class about extends Component {
                   )) : "loading..."}
               </div>
               <div className="col-md-12 consultants" style={{marginTop: "30px"}}>
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <div className="col-md-12 col-sm-6 col-xs-12">
                     <h2>Consultants of ESI</h2>
                     <ul>
                       {this.props.data ? this.props.data.consultants.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}

@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 class Policies extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
+      
     render() {
         return (
             <div id="policies" className="text-center">
@@ -21,7 +26,7 @@ class Policies extends Component {
                     </div>
                     {this.props.data ?
                         this.props.data.array.map((d, i) => (
-                            <div key={`${i}`} className="col-xs-12 col-md-6 policy">
+                            <div key={`${i}`} className="col-xs-12 col-md-12 policy">
                                 {" "}
                                 <h3>{d.title}</h3>
                                 <p>{d.paragraph}</p>
@@ -32,14 +37,14 @@ class Policies extends Component {
                         : "loading"}
 
 
-                    <div className="col-xs-12 col-md-12">
+                    {/* <div className="col-xs-12 col-md-12">
                     <a
                     href="#home"
                     className="btn btn-custom btn-lg page-scroll"
                     >
                     Know More
                   </a>{" "}
-                    </div>
+                    </div> */}
 
                 </div>
              </div>

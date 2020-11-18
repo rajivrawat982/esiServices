@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 export class TataSteel extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+      
     render() {
         return (
             <div id="tatasteel" className="text-center">

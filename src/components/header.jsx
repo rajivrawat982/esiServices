@@ -14,10 +14,15 @@ export class Header extends Component {
                     <span></span>
                   </h1>
                   <p>
-                    {this.props.data ? this.props.data.paragraph : "Loading..."} <br/>
-                    {this.props.data ? this.props.data.paragraph2 : "Loading..."} <br/>
-                    {this.props.data ? this.props.data.paragraph3 : "Loading..."} <br/>
-                    {this.props.data ? this.props.data.paragraph4 : "Loading..."}
+                    {this.props.data ? this.props.data.paragraph : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph2 : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph3 : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph4 : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph5 : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph6 : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph7 : "Loading..."} <br/> <br/>
+                    {this.props.data ? this.props.data.paragraph8 : "Loading..."} 
+
                     
                   </p>
                   {/* <a

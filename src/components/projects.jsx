@@ -13,8 +13,175 @@ class Projects extends Component {
                     <div className="section-title">
                         <h2>Projects</h2>
                     </div>
-                    <div className="row">
-                        <div className="col-md-6 project-list">
+                    <div className="col-md-12">
+                            <h4>{this.props.data ? this.props.data.paragraph : "loading..."}</h4>
+                    </div>
+                   
+                        <div className="project-images">
+                        <div className="portfolio-items">
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    <a
+                                    href="#0" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>JSW Steel Ltd</h4>
+                                        <h6>Tornagallu, Karnataka State</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/01-jswSteel.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    
+                                    <a
+                                    href="#1" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>JSW Severfield Structures Ltd</h4>
+                                        <h6>Tornagallu, Karnataka State</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/02-jswSevere.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    
+                                    <a
+                                    href="#2" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>Andritz</h4>
+                                        <h6>Tornagallu, Karnataka State</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/03-andritz.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    
+                                    <a
+                                    href="#3" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>JSW Cement</h4>
+                                        <h6>Tornagallu, Karnataka State</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/04-jswCement.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    
+                                    <a
+                                    href="#4" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>Jindal Aluminium</h4>
+                                        <h6>Jindal nagar, Bangalore-73</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/05-jindalSteel.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    
+                                    <a
+                                    href="#5" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>TBSL</h4>
+                                        <h6>Meramandali, Odisha</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/06-bhushanSteel.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-4 col-lg-3 col-xs-6">
+                                <div className="portfolio-item">
+                                <div className="hover-bg">
+                                    {" "}
+                                    <a
+                                    href="#6" className="page-scroll"
+                                    title="Project Title"
+                                    data-lightbox-gallery="gallery1"
+                                    >
+                                    <div className="hover-text">
+                                        <h4>Tata steel </h4>
+                                        <h6>Kalinganagar, Odisha</h6>
+                                    </div>
+                                    <img
+                                        src="img/project/07-tataSteel.jpg"
+                                        className="img-responsive"
+                                        alt="Project Title"
+                                    />{" "}
+                                    </a>{" "} 
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                
+                        <div className="col-md-6  col-sm-12 col-xs-12 project-list">
                             <ul>
                             { this.props.data ? 
                             this.props.data.projects.map((project , i )=> (
@@ -50,10 +217,7 @@ class Projects extends Component {
                                     ))
                                  : "loading..."}
                         </div>
-                        
-                    </div>
-                </div>
-                
+                </div>   
             </div>
         )
     }

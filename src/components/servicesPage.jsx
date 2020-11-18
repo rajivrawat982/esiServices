@@ -53,10 +53,21 @@ class ServicesPage extends Component {
                 <div>
                 { this.props.data ?
                         (
-                            <div className="col-md-12">
+                            <div className="col-md-12 robotics">
                                 <h3>{this.props.data.robotics.topic}</h3>
+                                <p>
+                                    {this.props.data.robotics.paragraph0}
+                                </p>
+                                <p>
+                                    {this.props.data.robotics.paragraph1}
+                                </p>
+
                                 <ul>
-                                    {this.props.data ? this.props.data.robotics.points.map((d, i) => <li>{d}</li>) : "loading..."}
+                                    {this.props.data ? this.props.data.robotics.points.map((d, i) => 
+                                    <li>
+                                        <strong>{d.title}</strong><br/>
+                                        <p>{d.point}</p> 
+                                    </li>) : "loading..."}
                                 </ul>
                             </div>
                         )

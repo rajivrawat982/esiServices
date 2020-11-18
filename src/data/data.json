@@ -2,10 +2,14 @@
     "Header": {
 
         "title": "Tailored Services To Deliver Safety Through The Entire Life Cycle Of Steel/Power Plants.",
-        "paragraph": "An ISO accredited company, ESI was registered as an Engineering firm in 1999. In the last 2 decades, it has reached a turnover of 550 million.",
-        "paragraph2": "ESI aims to deliver tailored services for absolute steel plant management, from planning, designing to operating and maintenance. Having established a positive reputation in the 20 years of successful association with M/S JSW Steel Ltd, Bellary, India, ESI intently diversified to Aluminium & Concrete Technology & Services, catering to every aspect of their life cycle and more recently into Robotics and Factory Automation meeting high quality standards with integrated project delivery.",
-        "paragraph3": "ESI steadily expanded its business value by entering into major contracts with several marquee infrastructure firms such as Tata Steel Ltd.- Kalinganagar, Tata Steel-Jamshedpur, JSW Severfield Structures Ltd.-Bellary, Jindal Aluminium Ltd- Bangalore, JSW Cement Ltd-Bellary, Andrtiz Pvt. Ltd & Tata Bhushan Steel, Angul.",
-        "paragraph4": "Maintaining safety in every process while driving organisational excellence with cross functional expertise, ESI offers a wide range of services to create efficient work processes and operations. Along with all this, ESI also delivers professional training in maintenance and industrial engineering while continuously researching and remaining updated with upcoming technology to thrive on relevance."
+        "paragraph": "Engineering Services International (ESI ), registered as an Engineering firm  in 1999, is an ISO accredited company and progressed to  a turnover of Rs 550 Million in the last two (2) decades.",
+        "paragraph2": "From its initial foundation, ESI aimed at delivering quality, safety and tailored services for integrated Steel Plant Management –from planning, designing to Operation and Maintenance.",
+        "paragraph3": "Our credibility is built due to the successful continued association with M/S JSW STEEL Ltd, Bellary, India for the last twenty(20) years",
+        "paragraph4": "Our positive reputation of a full-service Partner with M/S JSW STEEL LTD has helped us expand into similar businesses  with major contracts with several marquee infrastructure companies such as Tata Steel -Kalinganagar, Tata Steel-Jamshedpur, JSW Severfield Structures Ltd-Bellary, Jindal Aluminium–Bangalore, JSW Cement –Bellary,Andrix Pvt Ltd-Bellary and Tata Bhushan Steel-Angul.",
+        "paragraph5": "ESI recently ventured into Robotics- and partnered with the First Robotic museum in India at Ahmedabad, Gujarat.",
+        "paragraph6": "ESI has been maintaining safety in every activity while deriving organisational excellence with cross functional expertise by maintaining support from its team of experts and consultants.",
+        "paragraph7": "ESI always remained updated with upcoming technology and has also delivered professional training in Maintenance and Industrial engineering.",
+        "paragraph8": "ESI is your one stop solution to accelerating your Power plants to the next phase. A full-service partner you can depend on."
 
     },
     "About": {
@@ -70,15 +74,16 @@
             }
         ],
         "consultants": [
-            "MR. MATHEW ALEXANDER, EX-GM,VIZAG STEEL",
-            "MR. VASUDEVAN NAIR, EX-GM,VIZAG STEEL",
-            "MR GEORGE ABRAHAM, EX-GM,VIZAG STEEL",
-            "MR. WILSON DAVID, EX-DIRECTOR, VIZAG STEEL",
-            "MR. AJITH KUMAR, EX-DGM, ESSAR STEEL",
-            "MR. SURENDRAN, EX-GM,BHOKKARO STEEL",
-            "MR. NG RAO EX-VP, JSW STEEL",
-            "MR. SUNIL, EX-DGM, EZZAR STEEL",
-            "MR. RAJU"
+            "Mr. Mathew Alexander ,Experienced in Maintenance of Power Plant and Rolling Mills",
+            "Mr.Vasudevan Nair, Experienced in Rolling Mills as a Consultant with Dastur & Company & Siemens India",
+            "Mr.Wilson David, Experienced  in Rolling Mills Operation & Project Engineering",
+            "Mr. Ajith Kumar, Metallurgist  turned Management cum IT professional",
+            "Mr.NG RAO, Experienced in Personnel Management in Steel Plant",
+            "Mr. Sunil, Experienced in Operation & Maintenance of Locomotives,Rail and Logistics of Steel Plant",
+            "Mr. Simon Paulose, Experienced in Maintenance & Project Engineering of Steel Plants",
+            "Mr.Raju, Experienced in Central Maintenance of Steel Plant",
+            "Mr. Sasikumaran, Experienced in Maintenance of Power Plants, Steel Plants and Aluminum Plants",
+            "Mr. George Abraham, Experienced Chartered Accountant from Steel Plant"
         ]
     },
     "Services": [{
@@ -150,7 +155,7 @@
                 }, 
                 {
                     "topic": "Consulting & Technical Manpower Assistance (TMA)",
-                    "points": "ESI grants you access to suitably trained, qualified and experienced manpower assistance. With a blend of technology and human touch, ESI empowers talented and deserving individuals by helping them stay ahead of the competition with relevant with up-to-date skill and knowledge training.",
+                    "points": "ESI grants you access to suitably trained, qualified and experienced manpower assistance. With a blend of technology and human touch, ESI empowers talented and deserving individuals by helping them stay ahead of the competition relevant with up-to-date skill and knowledge training.",
                     "keypoints": [
                         "Trained  manpower assistance",
                         "Training Modules for skill and machinery usage training"
@@ -167,64 +172,25 @@
             ],
             "robotics": {
                 "topic": "Robotics and factory Automation",
+                "paragraph0": "We are proud and humbled at the same time as our journey into Robotics & Factory Automation is initiated by being awarded the contract to build the first Robot Museum of India.",
+                "paragraph1": "Robotic Automation is rapidly becoming the cornerstone of PM Shri Narendra Modi’s vision with the ‘Make in India’ initiative. Modern advanced technology assists our clients to reduce the risk of human error, employee dependency, and workplace accidents while increasing the production efficiency and output. ESI is stepping up to assist Indian manufacturers meet this challenge.",
                 "points": [
-                    "With the ultimate aim of increasing efficiency, speed and overall performance, ESI ventured into Robotics and Factory automation. Currently our services encompass Integration of Robots and systems, Ordering and sourcing Robots and other material, Installation and Maintenance of robots and systems.",
-                    "Automated manufacturing solutions are a key part of any operation that aims for maximized efficiency, safety and competitive edge. Manufacturing robots automate repetitive tasks, reduce margins of error to negligible rates, and enable human workers to focus on more productive areas of the operation. While envisioning future, one can’t help but think of factory automations. ESI ventured into robotics and factory automation to embrace the future and be prepared for it."    
+                    {
+                        "title": "Hospitality Robots are already a game changer.",
+                        "point": "From chatbots to robot assistants, the use of robots in the Hospitality Industry has increased and become widespread in the recent times. The first time robots were used in hotel service was in 2015, in Henn-na hotel, Nagasaki, Japan. Since then, different players in the hospitality industry have adopted the use of these machines to varying degrees."
+                    },
+                    {
+                        "title": "AI implementations are really making a change.",
+                        "point": "Outsourcing to ESI specializing in AI models provides you with ready-made solutions to the challenges you are facing, without having to build the necessary infrastructure in-house. ESI is working in the realm of AI solutions and is willing and able to execute results, provided that the problems are measurable and trackable."
+                    },
+                    {
+                        "title": "The robotics revolution in India has its foothold first in heavy industry such as automotive manufacturing.",
+                        "point": "Currently our services encompass Integration of Robots and systems, Ordering and sourcing Robots and other material, Installation and Maintenance of robots and systems. While envisioning future, one cannot help but think of factory automations. ESI ventured into robotics and factory automation to embrace the future and be prepared for it."
+                    }
                 ]
             }
             
     },
-    "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
-    "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
-        },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
-        }
-    ],
     "Contact": {
         "address": "Regd: Office: 69, 1st. Floor, DD Milestone, Kadavanthra Jn, Kadavanthra P. O. Cochin-682 020 INDIA",
         "phone": "(Off) +091 0484 – 220 6326, 220 6327 ® 091 0484 – 229 5636",
@@ -318,9 +284,11 @@
     },
     "recentAccolades": [
         "In the year 2019, ESI started venturing into the Middle East in Qatar. The firm is registered in Doha. In 2020, ESI started its operational activities at Sultanate of Oman With Jindal Steel at Shoar.",
-        "ESI’s new advanced service initiatives are Robotics & Factory Automation System Design, O&M for Automated Factories, and Large Scale Steel Structures Design & Fabrication. ESI has recently been awarded a government contract to build the first Robot Museum in INDIA, Ahmedabad, Gujarat. This contract includes facility management and O&M for 5 years after the 2 years of works phase."
+        "ESI’s new advanced service initiatives are Robotics & Factory Automation System Design, O&M for Automated Factories, and Large Scale Steel Structures Design & Fabrication. ESI has recently been awarded a government contract to build the first Robot Museum in INDIA, Ahmedabad, Gujarat. This contract includes facility management and Operations and Management for 5 years, after the 2 years of works phase. "
     ],
     "Projects": {
+        "paragraph": "Our success is measured by our customer satisfaction. Most of our business comes from our existing customers who have been in collaboration and contract with ESI for over 2 decades. We thrive with the trust our customers express in our abilities and we continuously strive to provide seamless services.",
+        
         "projects": [
             "JSW Steel Ltd, Tornagallu, Karnataka State",
             "JSSL- Site, at Tornagallu, Karnataka",
