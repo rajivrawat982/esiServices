@@ -14,7 +14,7 @@ class about extends Component {
         <div id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
+            <div className="col-xs-12 col-md-6"> <img src="/img/about.jpg" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <h2>History and The journey so far</h2>
