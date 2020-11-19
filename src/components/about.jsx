@@ -38,13 +38,19 @@ class about extends Component {
                   </div>
                 </div>
               </div>
-              </div>
+            </div>
               <div className="col-md-12" style={{marginTop: "30px"}}>
                   {this.props.data ? this.props.data.coreteam.map((person, i) => (
-                    <div key={`${i}`}>
+                    <div key={`${i}`} className="col-md-12 col-sm-12 coremember">
                       <h4>{person.name}</h4>
-                      <p>{person.info}</p>
-                      <hr/>
+                      <div className="col-md-12 col-sm-12">
+                      <div className="col-lg-3 col-sm-4 col-xs-12 text-center">
+                        <img src={person.imgsrc} alt="member"></img>
+                      </div>
+                      <div className="col-lg-9 col-sm-8">
+                          <p>{person.info}</p>
+                      </div>
+                      </div>
                     </div>
                   )) : "loading..."}
               </div>
